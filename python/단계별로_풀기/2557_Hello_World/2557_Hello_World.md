@@ -10,8 +10,7 @@ https://www.acmicpc.net/problem/2557
 - 출력할 텍스트는 **큰따옴표**로 감싸야 하며, 문제에서 요구한 **대소문자, 공백, 특수문자**를 정확하게 맞춤
 
 
-관련 자료
-- [파이썬 문서 - print()](https://docs.python.org/3/library/functions.html#print)
+
 ## 코드
 ```python
 print('Hello World')
