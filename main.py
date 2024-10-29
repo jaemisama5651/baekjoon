@@ -1,12 +1,11 @@
-a, b, c = map(int, input().split())
+T = int(input())
 
-prize = 0
+list = 0
 
-if a == b == c:
-    prize = 10000 + a * 1000
-elif a == b or a == c:
-    prize = 1000 + a *100
-elif b == c:
-    prize = 1000 + b *100
-else:
-    prize = max(a,b,c)*100
+for i in range(T):
+    A, B= map(int, input().split())
+    list.append(A+ B)
+
+for l in list:
+    print(list)
+    
